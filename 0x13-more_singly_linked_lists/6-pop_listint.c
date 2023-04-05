@@ -6,7 +6,7 @@
  * Return: data inside the elements that was deleted or 0 if the list is empty
  */
  
-int poip_listint(listint_t **head)
+int pop_listint(listint_t **head)
 {
 	listint_t *swap;
 	int x;
